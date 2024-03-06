@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2021",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+  
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+  
+    /* Emit */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
